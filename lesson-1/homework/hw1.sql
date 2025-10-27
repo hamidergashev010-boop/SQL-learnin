@@ -1,4 +1,4 @@
-Nodir, [25.10.2025 17:18]
+
 Easy
 
 Savol:
@@ -83,18 +83,3 @@ values
 (1, 'Alice', 20),
 (2, 'Bob', 22),
 (3, 'Charlie', 21);
-
-Nodir, [25.10.2025 17:18]
-Savol
-3. Restore AdventureWorksDW2022.bak file to your server. (write its steps to submit) You can find the database from this link :https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2022.bak
-Quyidagi havola orqali .bak faylni yuklab oling:
-AdventureWorksDW2022.bak
-
-Javob
-1. Faylni C:\Backup\AdventureWorksDW2022.bak manziliga yoki boshqa istalgan manzilga joylashtiramiz.
-2. SSMS dasturini ishga tushirib, SQL Server’ga ulanib olamiz.
-3. Object Explorer (Обозреватель объектов) oynasida Databases (Базы данных) ustiga sichqonchani o‘ng tugmasini bosgan holda Restore Database (Восстановить базу данных)ni tanlaymiz.
-4. Source (Источник) bo‘limidan keyin Device (Устройство) ni belgilaymiz tugmasini bosamiz so'ngra .bak faylni tanlaymiz.
-5. Destination (Назначение) bo‘limida yangi baza nomini AdventureWorksDW2022 deb kiritamiz.
-6. Files (Файлы) bo‘limida fayllar saqlanadigan manzil to‘g‘riligini tekshiramiz.
-7. So‘ngra OK tugmasini bosib, tiklash (restore) (восстановить) jarayonini yakunlaymiz.
